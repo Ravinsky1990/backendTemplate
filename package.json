@@ -1,0 +1,32 @@
+{
+  "name": "backendtemplae",
+  "version": "1.0.0",
+  "description": "template for back-end projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "Ravinsky Yuriy",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "config": "^3.2.3",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.8.2",
+    "koa-body": "^4.1.1",
+    "koa-context-validator": "^0.4.1",
+    "koa-helmet": "^5.1.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa2-swagger-ui": "^2.15.3",
+    "nodemon": "^1.19.3",
+    "pg": "^7.12.1",
+    "ramda": "^0.26.1",
+    "sharp": "^0.23.1"
+  }
+}
